@@ -1,0 +1,5 @@
+What’s going on here? rgrep was given the pattern ".\.txt"; it printed only the lines from its standard input
+that matched this pattern. How can you tell if a line matches the pattern? A line matches a pattern if the pattern
+“appears” somewhere inside the line. In the absence of any special operators, seeing if a line matches a pattern
+reduces to seeing if the pattern occurs as a substring anywhere in the line. So for most characters, their meaning
+in a pattern is just to match themselves in the target string.
